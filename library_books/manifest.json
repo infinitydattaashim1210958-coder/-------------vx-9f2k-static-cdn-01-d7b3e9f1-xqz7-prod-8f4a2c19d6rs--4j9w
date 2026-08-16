@@ -1,0 +1,94 @@
+{
+  "books": [
+  {
+    "id": "1",
+    "title": "আর্যদের আদিদেশ",
+    "filename": "aryaderadidesh.html",
+    "date": "2026-07-11"
+  },
+  {
+    "id": "2",
+    "title": "বৈশেষিক দর্শন",
+    "filename": "boisheshik.html",
+    "date": "2026-07-11"
+  },
+  {
+    "id": "3",
+    "title": "সমাজ বিপ্লব",
+    "filename": "somajbiplob.html",
+    "date": "2026-07-11"
+  },
+  {
+    "id": "4",
+    "title": "বেদ-কেন ও কী",
+    "filename": "vedkenooki.html",
+    "date": "2026-07-11"
+  },
+  {
+    "id": "5",
+    "title": "বেদ পরিচয়",
+    "filename": "vedporichoy.html",
+    "date": "2026-07-11"
+  },
+  {
+    "id": "6",
+    "title": "শ্রীকৃষ্ণের আহ্বান", 
+    "filename": "krishneraovan.html",
+    "date": "2026-07-12"
+   },
+    {
+    "id": "7",
+    "title": "❝ঈশা বাস্যমিদং সর্বং❞ বা উপনিষদে পরমেশ্বরের সর্বব্যাপকতা", 
+    "filename": "isha1.html",
+    "date": "2026-07-14"
+    },
+    {
+    "id": "8",
+    "title": "ভূ-মাতৃকা প্রার্থনা", 
+    "filename": "vumatrika.html",
+    "date": "2026-07-15"
+    },
+    {
+    "id": "9",
+    "title": "কর্মফল মীমাংসা", 
+    "filename": "kormofolmimangsa.html",
+    "date": "2026-07-16"
+    },
+    {
+    "id": "10",
+    "title": "সন্ধ্যোপাসনা কী ? কেন ? কীভাবে ?—পণ্ডিত গঙ্গাপ্রসাদ উপাধ্যায়", 
+    "filename": "sondha-upasona.html",
+    "date": "2026-07-19"
+    },
+    {
+    "id": "11",
+    "title": "কর্মফল বিবরণ", 
+    "filename": "kormofol-biboron.html",
+    "date": "2026-07-22"
+    },
+    {
+    "id": "12",
+    "title": "দয়ানন্দ দর্শন",
+    "filename": "dayanand-darshan.html",
+    "date": "2026-07-23"
+    },
+    {
+    "id": "13",
+    "title": "বেদ এবং বৈদিক শাস্ত্রে বর্ণিত ❝হৃদয়❞ শব্দের মীমাংসা",
+    "filename": "ridoy.html",
+    "date": "2026-07-24"
+    },
+    {
+    "id": "14",
+    "title": "শিবপ্রসাদ রায় সমগ্র",
+    "filename": "shivprosad.html",
+    "date": "2026-07-30"
+    },
+    {
+    "id": "15",
+    "title": "হিন্দু সংগঠন—কেন এবং কেমন করে ?",
+    "filename": "hindusongoton.html",
+    "date": "2026-07-31"
+    }
+  ]
+}
