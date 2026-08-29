@@ -89,6 +89,11 @@
     "title": "হিন্দু সংগঠন—কেন এবং কেমন করে ?",
     "filename": "hindusongoton.html",
     "date": "2026-07-31"
-    }
+    },
+    {"id":"gurugiri",
+    "title":"গুরুগিরি",
+    "filename":"gurugiri.db.gz",
+    "type":"db",
+    "date":"2026-08-29"}
   ]
 }
