@@ -90,10 +90,18 @@
     "filename": "hindusongoton.html",
     "date": "2026-07-31"
     },
-    {"id":"gurugiri",
+    {"id":"16",
     "title":"গুরুগিরি",
     "filename":"gurugiri.db.gz",
     "type":"db",
-    "date":"2026-08-29"}
+    "date":"2026-08-29"},
+    {
+    "id":"17",
+    "title":"বেদ ও গো-পালন",
+    "filename":"gopalon_db.gz",
+    "type":"db",
+    "date":"2026-08-31"
+    }
+    
   ]
 }
