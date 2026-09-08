@@ -1,0 +1,331 @@
+{
+  "manifest_version": "1.0",
+  "generated_at": "2026-09-09T00:56:13+06:00",
+  "source": {
+    "dataset": "bhagavad-gita-main.zip",
+    "description": "Per-verse Bhagavad Gita commentary and Devanagari shlok text, converted from source JSON to gzip-compressed SQLite databases"
+  },
+  "total_files": 18,
+  "total_verses_per_file": 719,
+  "schema": {
+    "commentary": {
+      "columns": [
+        "id",
+        "chapter",
+        "verse",
+        "verse_id",
+        "author",
+        "et",
+        "ht",
+        "ec",
+        "hc",
+        "sc"
+      ],
+      "field_meaning": {
+        "et": "English translation",
+        "ht": "Hindi translation",
+        "ec": "English commentary",
+        "hc": "Hindi commentary",
+        "sc": "Sanskrit commentary"
+      },
+      "note": "All 17 commentator databases share this schema; only the columns listed in each entry's 'fields' are populated for that commentator, the rest are NULL."
+    },
+    "shlok": {
+      "columns": [
+        "id",
+        "chapter",
+        "verse",
+        "verse_id",
+        "speaker",
+        "slok",
+        "transliteration"
+      ],
+      "field_meaning": {
+        "slok": "Devanagari verse text",
+        "transliteration": "IAST roman transliteration"
+      }
+    }
+  },
+  "files": [
+    {
+      "id": "tej",
+      "file": "tej_ht_db.gz",
+      "table": "commentary",
+      "commentator": "Swami Tejomayananda",
+      "languages": [
+        "Hindi"
+      ],
+      "fields": [
+        "ht"
+      ],
+      "verse_count": 719,
+      "size_bytes": 68817,
+      "sha256": "31d52589a8229594c0bca419652649f0a318666abb55106e3541354295790d13"
+    },
+    {
+      "id": "siva",
+      "file": "siva_et_ec_db.gz",
+      "table": "commentary",
+      "commentator": "Swami Sivananda",
+      "languages": [
+        "English"
+      ],
+      "fields": [
+        "et",
+        "ec"
+      ],
+      "verse_count": 719,
+      "size_bytes": 349790,
+      "sha256": "ae7d4beda35ace8f2ad087666c01e60aa71fe2e2ddcaee60ece4cb3b204cae7e"
+    },
+    {
+      "id": "purohit",
+      "file": "purohit_et_db.gz",
+      "table": "commentary",
+      "commentator": "Shri Purohit Swami",
+      "languages": [
+        "English"
+      ],
+      "fields": [
+        "et"
+      ],
+      "verse_count": 719,
+      "size_bytes": 58157,
+      "sha256": "f452c96b47bbcd37b780623ebe114c505e05cf1689ef8c423dd0538dc90f65e8"
+    },
+    {
+      "id": "chinmay",
+      "file": "chinmay_hc_db.gz",
+      "table": "commentary",
+      "commentator": "Swami Chinmayananda",
+      "languages": [
+        "Hindi"
+      ],
+      "fields": [
+        "hc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 618988,
+      "sha256": "69bcf5591648ba655e48f2815716ff3d998de01f2bd534d2ed04437bbef199fc"
+    },
+    {
+      "id": "san",
+      "file": "san_et_db.gz",
+      "table": "commentary",
+      "commentator": "Dr. S. Sankaranarayan",
+      "languages": [
+        "English"
+      ],
+      "fields": [
+        "et"
+      ],
+      "verse_count": 719,
+      "size_bytes": 63946,
+      "sha256": "209f41d244345b511505346faef1bd236ec6297d934d45782a211e963ca15ae8"
+    },
+    {
+      "id": "adi",
+      "file": "adi_et_db.gz",
+      "table": "commentary",
+      "commentator": "Swami Adidevananda",
+      "languages": [
+        "English"
+      ],
+      "fields": [
+        "et"
+      ],
+      "verse_count": 719,
+      "size_bytes": 68836,
+      "sha256": "559bf1346496ed0437cad99bdac4388845ae4af3d85bb5b2f233c20db2df2ea4"
+    },
+    {
+      "id": "gambir",
+      "file": "gambir_et_db.gz",
+      "table": "commentary",
+      "commentator": "Swami Gambirananda",
+      "languages": [
+        "English"
+      ],
+      "fields": [
+        "et"
+      ],
+      "verse_count": 719,
+      "size_bytes": 64119,
+      "sha256": "a9bfa3da051f4349cffd160b857275a5e297c64f6e564b9acad6677f820cc62e"
+    },
+    {
+      "id": "madhav",
+      "file": "madhav_sc_db.gz",
+      "table": "commentary",
+      "commentator": "Shri Madhavacharya",
+      "languages": [
+        "Sanskrit"
+      ],
+      "fields": [
+        "sc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 90126,
+      "sha256": "f29110c3627d5b9ea7f0084ca3d4e1d85fb30f8d54ba613099d56d8241080c6b"
+    },
+    {
+      "id": "anand",
+      "file": "anand_sc_db.gz",
+      "table": "commentary",
+      "commentator": "Shri Anandgiri",
+      "languages": [
+        "Sanskrit"
+      ],
+      "fields": [
+        "sc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 315092,
+      "sha256": "284d7045c211547b8ebc73ac0540662900d6cd2bba79ebe7b4b8913aaf4a7894"
+    },
+    {
+      "id": "rams",
+      "file": "rams_ht_hc_db.gz",
+      "table": "commentary",
+      "commentator": "Swami Ramsukhdas",
+      "languages": [
+        "Hindi"
+      ],
+      "fields": [
+        "ht",
+        "hc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 1422758,
+      "sha256": "74c9edfbe9f8a4dffef0fb3e88b3ad9b9e4ef1c97461670b989def646886915e"
+    },
+    {
+      "id": "raman",
+      "file": "raman_et_sc_db.gz",
+      "table": "commentary",
+      "commentator": "Shri Ramanuja",
+      "languages": [
+        "English",
+        "Sanskrit"
+      ],
+      "fields": [
+        "et",
+        "sc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 391044,
+      "sha256": "ada4c99cb464675b25fb65c4e5510fe5c05c57c455de20f7cd2102ce669dddbd"
+    },
+    {
+      "id": "sankar",
+      "file": "sankar_et_ht_sc_db.gz",
+      "table": "commentary",
+      "commentator": "Shri Shankaracharya",
+      "languages": [
+        "English",
+        "Hindi",
+        "Sanskrit"
+      ],
+      "fields": [
+        "et",
+        "ht",
+        "sc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 793857,
+      "sha256": "766d3312b98717e99eb17765475f1e01568146b36806171a2e75785778cf5d27"
+    },
+    {
+      "id": "vallabh",
+      "file": "vallabh_sc_db.gz",
+      "table": "commentary",
+      "commentator": "Shri Vallabhacharya",
+      "languages": [
+        "Sanskrit"
+      ],
+      "fields": [
+        "sc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 166328,
+      "sha256": "2ee892fc086a9db37e4df5722e9df899aded8d9cbaa56d4d3b3dcd91a6bb9d6e"
+    },
+    {
+      "id": "dhan",
+      "file": "dhan_sc_db.gz",
+      "table": "commentary",
+      "commentator": "Shri Dhanpati",
+      "languages": [
+        "Sanskrit"
+      ],
+      "fields": [
+        "sc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 378158,
+      "sha256": "1299ab8e59570d899f56cf6128ba994e73d0d775d98b117f500ba331d6d46f95"
+    },
+    {
+      "id": "venkat",
+      "file": "venkat_sc_db.gz",
+      "table": "commentary",
+      "commentator": "Vedantadeshika",
+      "languages": [
+        "Sanskrit"
+      ],
+      "fields": [
+        "sc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 596612,
+      "sha256": "cf75a6f3549aac5cb277c55bed3a562fe0b892e3b363c51e6a9898fde50fe560"
+    },
+    {
+      "id": "puru",
+      "file": "puru_sc_db.gz",
+      "table": "commentary",
+      "commentator": "Shri Purushottamji",
+      "languages": [
+        "Sanskrit"
+      ],
+      "fields": [
+        "sc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 181891,
+      "sha256": "2c37f40e6c7dd4372df6b60d5ecab61820b6b3f14dfafcd7cc60b21f27836f99"
+    },
+    {
+      "id": "neel",
+      "file": "neel_sc_db.gz",
+      "table": "commentary",
+      "commentator": "Shri Neelkanth",
+      "languages": [
+        "Sanskrit"
+      ],
+      "fields": [
+        "sc"
+      ],
+      "verse_count": 719,
+      "size_bytes": 222763,
+      "sha256": "6e0a866bda87d1b951333f2412599ec55b0e3464efab0f6e1b7d26d81378962b"
+    },
+    {
+      "id": "slok",
+      "file": "slok_deva_translit_db.gz",
+      "table": "shlok",
+      "commentator": null,
+      "languages": [
+        "Devanagari (Sanskrit)",
+        "IAST transliteration"
+      ],
+      "fields": [
+        "slok",
+        "transliteration"
+      ],
+      "verse_count": 719,
+      "size_bytes": 98420,
+      "sha256": "d95cc50c7a133afa5a5c8d59bd263439003f5a5a4237dfe57e83ba62f6f67756"
+    }
+  ]
+}
