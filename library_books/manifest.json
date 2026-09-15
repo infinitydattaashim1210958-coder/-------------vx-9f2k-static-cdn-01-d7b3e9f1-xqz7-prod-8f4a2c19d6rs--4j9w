@@ -101,7 +101,13 @@
     "filename":"gopalon_db.gz",
     "type":"db",
     "date":"2026-08-31"
-    }
-    
+    },
+    {
+    "id": "gita_adhyayan",
+    "title": "শ্রীমদ্ভগবদ্গীতা : এক অধ্যয়ন",
+    "filename": "gita_adhyayan.db.gz",
+    "date": "2026-08-01",
+    "type": "db"
+     }    
   ]
 }
