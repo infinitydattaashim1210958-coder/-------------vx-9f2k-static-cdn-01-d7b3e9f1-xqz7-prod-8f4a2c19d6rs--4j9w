@@ -108,6 +108,14 @@
     "filename": "gita_adhyayan.db.gz",
     "date": "2026-08-01",
     "type": "db"
-     }    
+     },
+     {
+    "id": "traitavad",
+    "title": "ত্রৈতবাদের স্বরূপ",
+    "filename": "traitavader_swarup.db.gz",
+    "date": "2024-01-20",
+    "type": "db"
+    }
+
   ]
 }
