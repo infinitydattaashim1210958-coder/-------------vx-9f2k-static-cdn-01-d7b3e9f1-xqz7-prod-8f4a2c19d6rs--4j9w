@@ -103,16 +103,23 @@
     "date":"2026-08-31"
     },
     {
-    "id": "gita_adhyayan",
+    "id": "18_gita_adhyayan",
     "title": "শ্রীমদ্ভগবদ্গীতা : এক অধ্যয়ন",
     "filename": "gita_adhyayan.db.gz",
     "date": "2026-08-01",
     "type": "db"
      },
      {
-    "id": "traitavad",
-    "title": "ত্রৈতবাদের স্বরূপ",
+    "id": "19_traitavad",
+    "title": "ত্রৈতবাদ",
     "filename": "traitavader_swarup.db.gz",
+    "date": "2024-01-20",
+    "type": "db"
+    },
+    {
+    "id": "20_bankim",
+    "title": "বঙ্কিম রচনাবলী",
+    "filename": "bankim_rachanabali.db.gz",
     "date": "2024-01-20",
     "type": "db"
     }
