@@ -122,6 +122,14 @@
     "filename": "bankim_rachanabali.db.gz",
     "date": "2024-01-20",
     "type": "db"
+    },
+    {
+    "id": "rabindra_rachanabali",
+    "title": "রবীন্দ্র রচনাবলী",
+    "filename": "rabindra.db.gz",
+    "date": "2026-09-29",
+    "type": "rabindra",
+    "url": "https://github.com/infinitydattaashim1210958-coder/-------------vx-9f2k-static-cdn-01-d7b3e9f1-xqz7-prod-8f4a2c19d6rs--4j9w/releases/download/digital_library/rabindra.db.gz"
     }
 
   ]
